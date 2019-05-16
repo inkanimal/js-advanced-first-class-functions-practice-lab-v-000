@@ -63,7 +63,7 @@ function totalRevenue(drivers){
   function averageRevenue(drivers){
     return drivers.reduce(function (sum, driver) {
         return sum + driver;
-    }, 0) / array.length;
+    }, 0) / drivers.length;
   }
 
 
